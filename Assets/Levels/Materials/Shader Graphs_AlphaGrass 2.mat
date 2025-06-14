@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_AlphaGrass
+  m_Name: Shader Graphs_AlphaGrass 2
   m_Shader: {fileID: -6465566751694194690, guid: 01757951d30be564daeab391be2e033f,
     type: 3}
   m_Parent: {fileID: 0}
@@ -48,10 +48,10 @@ Material:
     m_Floats:
     - _amplitude: 0.03
     - _frequency: 1.88
-    - _speed: 1.31
+    - _speed: 1
     m_Colors:
-    - _Color: {r: 0.2392157, g: 0.47058827, b: 0.25882354, a: 0}
-    - _Color_1: {r: 0.17577429, g: 0.4716981, b: 0.22593087, a: 0}
+    - _Color: {r: 0.086863644, g: 0.3018868, b: 0.1691043, a: 0}
+    - _Color_1: {r: 0.30837265, g: 0.5, b: 0.2523585, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1608024269099545336
 MonoBehaviour:
