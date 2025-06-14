@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4900117727554324783
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_MovingGrass
+  m_Shader: {fileID: -6465566751694194690, guid: a4eddf04462d6394595431f45eea165b,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GrassDark:
+        m_Texture: {fileID: 2800000, guid: 18bcd0500693461418176bebbf535d4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrassLight:
+        m_Texture: {fileID: 2800000, guid: 67fe474e312074149bb31432a26a7ec3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrassMed:
+        m_Texture: {fileID: 2800000, guid: 1e80cbd161bf9ed429e3b22cf9fbf79a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9971b1263492e8c4a9c02d12422bd179, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 59d9ffe7636822545bea7e88c6342bbc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _NoiseScale: 100
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _alpha: -10.45
+    - _alphaControl: 1
+    - _amplitude: 0.008
+    - _e1: 2.69
+    - _e2: 2.26
+    - _edge1: 0.71
+    - _edge2: 0.77
+    - _frequency: 1
+    - _speed: 2.68
+    - _speedAnim: 53.1
+    m_Colors:
+    - _Color: {r: 0.13396177, g: 1, b: 0.08962262, a: 0}
+    - _DarkColor: {r: 0.2294292, g: 0.6320754, b: 0.19379672, a: 0}
+    - _LightColor: {r: 0.59797263, g: 0.8773585, b: 0.4014329, a: 0}
+    - _MedColor: {r: 0.30928588, g: 0.7169812, b: 0, a: 0}
+  m_BuildTextureStacks: []
